@@ -1,0 +1,159 @@
+a {
+	text-decoration: none;
+}
+ul li {
+	list-style: none;
+}
+body {
+	font-size: 18px;
+}
+.header_bar {
+	background-color: #1176BC;
+}
+.abc {
+	background-color: red;
+}
+.chooseLanguage {
+	float: right;
+}
+.menu_left a {
+	padding: 5px 0px;
+}
+footer {
+	padding:100px 0px 50px 0px;
+	background-color: #FFFFFF;
+}
+footer a {
+	color:#6e6f71;
+	font-weight: 400;
+}
+footer ul {
+	margin-left: -30px;
+}
+.goolge_login_button,
+.facebook_login_button
+{
+	padding: 15px 0px;
+	border-radius: 20px;
+}
+.goolge_login_button a ,
+.facebook_login_button a {
+	padding-top:10px;
+}
+
+.goolge_login_button {
+	background-color: #ef3f37;
+}
+.facebook_login_button{
+	background-color: #1176bc;
+}
+.icon_google,
+.icon_facebook
+{
+	color: #FFFFFF;
+}
+.goolge_login_button a:first-child .icon_google,
+.facebook_login_button a:first-child .icon_facebook
+{
+	font-size: 50px;
+}
+.goolge_login_button a:first-child,
+.facebook_login_button a:first-child
+{
+	border-right:2px solid #FFFFFF;
+}
+.goolge_login_button a:last-child,
+.facebook_login_button a:last-child
+{
+	padding-left: 10px;
+}
+.goolge_login_button span,
+.facebook_login_button span {
+
+}
+.username input,
+.password input
+{
+	margin-left: -15px;
+	padding: 7px 20px;
+	border-radius: 11px;
+	border:1px solid #000000;
+}
+.username label,
+.password label,
+
+{
+	margin-left: -30px;
+	color: #000000;
+	padding-top: 20px; ;
+}
+.hr_1{
+	position: absolute;
+	top: -8px;
+}
+.hr_2 {
+	position: absolute;
+	right: 0px;
+	top: -8px;
+}
+.hr_text {
+	position: absolute;
+	left: 160px;
+	top: 0px;
+}
+.form_login_ .col-md-6 {
+	background-color: #FFFFFF;
+	margin-bottom: 100px;
+	padding: 50px 0px 10px 25px;
+	border-radius: 15px;
+	box-shadow: 0px 0px 15px 0px #d1d2d3 ;
+
+}
+.submit_form button {
+	margin: 30px 0px;
+	padding: 7px 0px ;
+	margin-left: -15px;
+	border-radius: 11px;
+	border: none;
+	background-color: #14a751;
+	color:#FFFFFF;
+	font-weight: 400;
+}
+.username label,
+.password label
+{
+	margin-left: -30px;
+	padding-top: 20px;
+	color:#000000;
+	font-weight: 500;
+}
+.text_login h4 {
+	font-weight: 500;
+	font-size: 20px;
+}
+.goolge_login_button a,
+.facebook_login_button a
+{
+	text-decoration: none;
+}
+.text_border {
+	border: 1px solid #dbdcde;
+	margin: 20px -5px 10px 0px;
+	color: #dbdcde;
+}
+.text_border:before {
+	content: "hoặc";
+	position: absolute;
+	left: 45%;
+	background: #fff;
+	top: 0px;
+	padding: 10px;
+}
+
+.dieukhoan {
+	padding-top:30px ;
+	margin-left: -30px;
+}
+.text_dieukhoan{
+	color:#63b8e7;
+}
