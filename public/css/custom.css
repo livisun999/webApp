@@ -8,16 +8,21 @@ body {
 	font-size: 18px;
 }
 .header_bar {
-	background-color: #1176BC;
+	background-color: #0062BC;
+	padding:5px;
 }
-.abc {
-	background-color: red;
-}
+
 .chooseLanguage {
 	float: right;
 }
-.menu_left a {
-	padding: 5px 0px;
+.menu_left ul li a {
+	color: #FFFFFF;
+}
+.minder_home {
+	font-size: 30px;
+	font-weight: bold;
+	color: #FFFFFF;
+
 }
 footer {
 	padding:100px 0px 50px 0px;
@@ -101,7 +106,7 @@ footer ul {
 	left: 160px;
 	top: 0px;
 }
-.form_login_ .col-md-6 {
+.form_login_ .col-md-5 {
 	background-color: #FFFFFF;
 	margin-bottom: 100px;
 	padding: 50px 0px 10px 25px;
@@ -144,7 +149,7 @@ footer ul {
 .text_border:before {
 	content: "hoặc";
 	position: absolute;
-	left: 45%;
+	left: 42%;
 	background: #fff;
 	top: 0px;
 	padding: 10px;
@@ -156,4 +161,29 @@ footer ul {
 }
 .text_dieukhoan{
 	color:#63b8e7;
+}
+.bt_choose_language {
+	margin-top: 10px;
+}
+.input-group-btn .bt_choose_language {
+	margin-top:10px;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.menu_respon a{
+	text-decoration: none;
+}
+.menu_button:hover{
+	background-color: #125991;
+	border-radius: 2px;
+	
+}
+.menu_button a:hover {
+	color:#FFFFFF;
+}
+
+.menu_left ul li{
+	margin:0px 20px;
 }

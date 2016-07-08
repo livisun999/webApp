@@ -5,24 +5,43 @@
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <link href="../public/css/custom.css" rel="stylesheet">
 </head>
 <body>
 
-<div class="container">
-    <h2>Dropdowns</h2>
-    <p>The .dropdown class is used to indicate a dropdown menu.</p>
-    <p>Use the .dropdown-menu class to actually build the dropdown menu.</p>
-    <p>To open the dropdown menu, use a button or a link with a class of .dropdown-toggle and data-toggle="dropdown".</p>
-    <div class="dropdown">
-        <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Dropdown Example
-            <span class="caret"></span></button>
-        <ul class="dropdown-menu">
-            <li><a href="#">HTML</a></li>
-            <li><a href="#">CSS</a></li>
-            <li><a href="#">JavaScript</a></li>
-        </ul>
+<nav class="navbar navbar-default header_bar">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header menu_respon">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#showMenu" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class=" minder_home" href="#">Minder</a>
     </div>
-</div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse menu_left" id="showMenu">
+      <ul class="nav navbar-nav">
+        <li class="menu_button "><a href="#">Trang Chu</a></li>
+        <li class="menu_button "><a href="#">Gop y</a></li> 
+      </ul>
+      
+      <ul class="nav navbar-nav navbar-right">
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">1</a></li>
+            <li><a href="#">2</a></li>
+            <li><a href="#">3</a></li>
+            <li><a href="#"> </a></li>
+          </ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
 
 </body>
 </html>
