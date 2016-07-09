@@ -19,10 +19,9 @@ body {
 	color: #FFFFFF;
 }
 .minder_home {
-	font-size: 30px;
+	font-size: 35px;
 	font-weight: bold;
 	color: #FFFFFF;
-
 }
 footer {
 	padding:100px 0px 50px 0px;
@@ -174,16 +173,39 @@ footer ul {
 }
 .menu_respon a{
 	text-decoration: none;
+	margin-top:20px;
 }
 .menu_button:hover{
 	background-color: #125991;
 	border-radius: 2px;
-	
+	color:#FFFFFF;
 }
 .menu_button a:hover {
 	color:#FFFFFF;
 }
 
 .menu_left ul li{
-	margin:0px 20px;
+	margin-left: 30px;
+}
+.minder_home:hover{
+	color:#f9f9f9;
+}
+#showMenu ul li .menu_hover:hover
+{
+	color: #FFFFFF;
+}
+.navbar-default .navbar-nav li a {
+	color: #ffffff;
+}
+.caret {
+	margin-left: 2px;
+	vertical-align: middle;
+	border-top: 12px dashed;
+	border-top: 4px solid\9;
+	border-right: 12px solid transparent;
+	border-left: 12px solid transparent;
+}
+.flag_ {
+	width: 20px;
+	height: 20px;
 }
