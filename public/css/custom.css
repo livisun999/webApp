@@ -1,3 +1,5 @@
+
+
 a {
 	text-decoration: none;
 }
@@ -37,8 +39,8 @@ footer ul {
 .goolge_login_button,
 .facebook_login_button
 {
-	padding: 15px 0px;
-	border-radius: 20px;
+	padding: 5px 0px;
+	border-radius: 15px;
 }
 .goolge_login_button a ,
 .facebook_login_button a {
@@ -78,19 +80,23 @@ footer ul {
 .username input,
 .password input
 {
-	margin-left: -15px;
+
 	padding: 7px 20px;
 	border-radius: 11px;
 	border:1px solid #000000;
 }
-.username label,
-.password label,
 
+
+.username label,
+.password label
 {
-	margin-left: -30px;
-	color: #000000;
-	padding-top: 20px; ;
+	margin-left: -15px;
+	padding-top: 15px;
+	color:#000000;
+	font-weight: 500;
+	padding-top: 15px; ;
 }
+
 .hr_1{
 	position: absolute;
 	top: -8px;
@@ -107,8 +113,8 @@ footer ul {
 }
 .form_login_ .col-md-5 {
 	background-color: #FFFFFF;
-	margin-bottom: 100px;
-	padding: 50px 0px 10px 25px;
+	margin:0px auto 100px;
+	padding: 20px 0px 10px 25px;
 	border-radius: 15px;
 	box-shadow: 0px 0px 15px 0px #d1d2d3 ;
 
@@ -116,20 +122,12 @@ footer ul {
 .submit_form button {
 	margin: 30px 0px;
 	padding: 7px 0px ;
-	margin-left: -15px;
+
 	border-radius: 11px;
 	border: none;
 	background-color: #14a751;
 	color:#FFFFFF;
 	font-weight: 400;
-}
-.username label,
-.password label
-{
-	margin-left: -30px;
-	padding-top: 20px;
-	color:#000000;
-	font-weight: 500;
 }
 .text_login h4 {
 	font-weight: 500;
@@ -208,4 +206,10 @@ footer ul {
 .flag_ {
 	width: 20px;
 	height: 20px;
+}
+.form_login_ .container .row {
+	display: flex;
+}
+.taikhoan {
+	padding-right: -15px;
 }
