@@ -7,56 +7,144 @@
     <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700">
     <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/icon?family=Material+Icons">
     <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
-    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap-theme.min.css">
+    <!--<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap-theme.min.css">-->
     <!-- Bootstrap -->
-    <link rel="stylesheet" type="text/css" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="../public/css/bootstrap.min.css">
 
     <!-- Bootstrap Material Design -->
     <link rel="stylesheet" type="text/css" href="../public/css/bootstrap-material-design.css"/>
     <link rel="stylesheet" type="text/css" href="../public/css/ripples.min.css"/>
+    <script src="../public/js/jquery.min.js"></script>
+    <script src="../public/js/bootstrap.min.js"></script>
+
     <link rel="stylesheet" type="text/css" href="../public/css/custom.css"/>
-    <script src="public/js/jquery.min.js"></script>
-    <script src="public/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="../public/css/custom_respon.css"/>
     <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>-->
     <!--<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>-->
 </head>
 
-<body>
+<body> 
 
-<div class="form_login_">
-  <div class="container">
-    <div class="row">
-      <form class="col-md-6 ">
-        <div class="col-md-12">
-          <div class="col-md-12 text_login">
-            <h4>+ Đăng ký </h4>
+
+<nav class="navbar  header_bar">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header menu_respon">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#showMenu" aria-expanded="true">
+                <span class="sr-only">Menu</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class=" minder_home" href="#">Minder</a>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse menu_left" id="showMenu">
+            <ul class="nav navbar-nav  ">
+                <li class="menu_button  "><a href="#" class="menu_hover">Trang Chủ</a></li>
+                <li class="menu_button  "><a href="#" class="menu_hover">Góp ý</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right  ">
+                <li class="menu_button"> <a href="#" class="menu_hover" data-toggle="modal" data-target="#modal_register">Đăng ki</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle " data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <img src="../public/images/Vietnam.png" class="flag_"> <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#" >1</a></li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                        <li><a href="#"> </a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+</nav>
+    <div class="form_login_">
+      <div class="container">
+        <div class="row">
+          <div class="modal fade col-md-12" id="modal_register" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document"> 
+            <form class="col-md-8 form_ col-sm-8 col-xs-8 col-cs-12 col-ct-10">
+              <div class="col-md-12">
+                <div class=" text_login">
+                  <h3 class="">+ Đăng ki </h3>
+                </div>
+                
+                 
+                <div class="col-md-12 col-sm-12 col-xs-12 col-cs-12">
+                    <div class="username">
+                      <label for="user_input" class="col-md-12 col-sm-12 col-xs-12 col-cs-12"> Tài khoản</label>
+                      <input type="text" id="user_input" class="col-md-11 col-sm-11 col-xs-11 col-cs-12">
+                    </div>
+                    <div class=" password taikhoan">
+                      <label for="password" class="col-md-12 col-sm-12 col-xs-12 col-cs-12"> Mật khẩu</label>
+                      <input type="password" id="password" class="col-md-11 col-sm-11 col-xs-11 col-cs-12">
+                    </div>
+                    <div class=" password taikhoan">
+                      <label for="re-password" class="col-md-12 col-sm-12 col-xs-12 col-cs-12"> Nhap lai Mật khẩu</label>
+                      <input type="password" id="re-password" class="col-md-11 col-sm-11 col-xs-11 col-cs-12">
+                    </div>
+                    <div class=" col-md-12">
+                      <input type="checkbox"> toi dong y voi <a href="#"> dieu khoan su dung </a> 
+                    </div>
+                    <div class=" submit_form taikhoan">
+                      <button type="submit"  class="col-md-11 col-sm-11  col-xs-11 col-cs-12"> Đăng ki </button>
+                    </div>
+                </div>
+                 
+            </form>
           </div>
         </div>
-        <div class="col-md-11">
-          <div class="col-md-12 username">
-            <label for="usernmae" class="col-md-12"> Tài khoản</label>
-            <input type="text" id="usernmae" class="col-md-12">
-          </div>
-          <div class="col-md-12 password">
-              <label for="password" class="col-md-12"> Mật khẩu</label>
-              <input type="password" id="password" class="col-md-12">
-          </div>
-          <div class="col-md-12 password">
-            <label for="re-password" class="col-md-12">Nhập lại mật khẩu</label>
-            <input type="password" id="re-password" class="col-md-12">
-          </div>
-          <div class="col-md-12 dieukhoan">
-            <label class="col-md-12">
-              <input type="checkbox"> <span class=" ">Tôi đồng ý với <a class="text_dieukhoan"> điều khoản sử dụng</a> </span>
-            </label>
-          </div>
-          <div class="col-md-12 submit_form">
-              <button type="submit"  class="col-md-12"> Đăng nhập </button>
-          </div>
-        </div>
-      </form>
     </div>
-    </div>
+  </div>
 </div>
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 col-sm-3 col-xs-6 col-cs-12 footer">
+                <ul>
+                    <li><a href="#"><strong>Minder</strong></a></li>
+                    <li><a href="">Giới thiệu</a></li>
+                    <li><a href="#">Khóa học</a></li>
+                    <li><a href="#">Liên hệ</a></li>
+                    <li><a href="#">Đội ngũ</a></li>
+                    <li><a href="#">Cơ hội việc làm</a></li>
+                    <li> <a href="#">Điều khoản sử dụng</a></li>
+                    <li><a href="#">Chính sách bảo mật</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3 col-sm-3 col-xs-6 col-cs-12">
+                <ul>
+                    <li><a href="#"><strong>Xem thêm</strong></a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Diễn Đàn</a></li>
+                    <li ><a href="#">Giáo viên</a> </li>
+                </ul>
+            </div>
+            <div class="col-md-3 col-sm-3 col-xs-6 col-cs-12">
+                <ul>
+                    <li><a href="#"><strong>Trợ giúp</strong></a></li>
+                    <li><a href="#">Câu hỏi thường gặp</a></li>
+                    <li><a href="#">Câu hỏi thường gặp</a></li>
+                    <li><a href="#">Trợ giúp</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3 col-sm-3 col-xs-6 col-cs-12">
+                <ul>
+                    <li><a href="#"><strong>Tìm khóa họa</strong></a></li>
+                    <li><a href="">Ngoại ngữ</a></li>
+                    <li><a href="#">Nghệ thuật và văn học</a></li>
+                    <li><a href="#">Toán học và khoa học</a></li>
+                    <li><a href="#">Thế giới tự nhiên</a></li>
+                    <li><a href="#">Lịch sử địa lý</a></li>
+                    <li><a href="#">Chuyên môn và nghề nghiệp</a></li>
+                    <li><a href="#">Giải trí</a></li>
+                    <li><a href="#">Khoa học thưởng thức</a></li>
+                    <li><a href="#">Học tiếng tây Ban Nha</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
 </body>
 </html>

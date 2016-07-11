@@ -23,7 +23,8 @@
     <!--<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>-->
 </head>
 
-<body>
+<body> 
+
 
 <nav class="navbar  header_bar">
     <div class="container">
@@ -44,7 +45,7 @@
                 <li class="menu_button  "><a href="#" class="menu_hover">Góp ý</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right  ">
-                <li class="menu_button"> <a href="#" class="menu_hover">Đăng nhập</a></li>
+                <li class="menu_button"> <a href="#" class="menu_hover" data-toggle="modal" data-target="#modal_login">Đăng nhập</a></li>
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle " data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <img src="../public/images/Vietnam.png" class="flag_"> <span class="caret"></span></a>
                     <ul class="dropdown-menu">
@@ -58,46 +59,49 @@
         </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
 </nav>
+    <div class="form_login_">
+      <div class="container">
+        <div class="row">
+          <div class="modal fade col-md-12" id="modal_login" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document"> 
+            <form class="col-md-8 form_ col-sm-8 col-xs-8 col-cs-12 col-ct-10">
+              <div class="col-md-12">
+                <div class=" text_login">
+                  <h3 class="text-center">Đăng nhập </h3>
+                </div> 
+                <div class="col-md-12 col-sm-12 col-xs-12 col-cs-12 ">
+                    <div class="username">
+                     
+                      <input type="text" id="user_input" class="form-control col-md-11 col-sm-11 col-xs-11 col-cs-12" placeholder="Tài khoản">
+                    </div>
+                    <div class=" password taikhoan">
+                      
+                      <input type="password" id="password" class="form-control col-md-11 col-sm-11 col-xs-11 col-cs-12" placeholder="Mật khẩu">
+                    </div>
+                      <div class=" submit_form taikhoan">
+                        <button type="submit"  class="col-md-12 col-sm-11  col-xs-11 col-cs-12"> Đăng nhập </button>
+                      </div>
+                </div>
+                <div class="col-md-11 col-sm-11 col-xs-11 col-sm-11 col-cs-12">
+                    <div class="text_border">
+                    </div>
+                </div>
 
-<div class="form_login_">
-  <div class="container">
-    <div class="row">
-      <form class="col-md-5 form_ col-sm-6 col-xs-8 col-cs-12">
-        <div class="col-md-12">
-          <div class=" text_login">
-            <h4>+ Đăng nhập </h4>
-          </div>
-          <div class="btn-group goolge_login_button col-md-11 col-xs-11 col-sm-11 col-cs-12">
-            <a class='btn disabled col-md-3 col-sm-3 col-xs-3 col-cs-3'><i class="fa fa-google-plus icon_google" ></i></a>
-            <a class="col-md-9 col-sm-9 col-xs-9 col-cs-9" href='#'><span class="icon_google "> Đăng nhập bằng tài khoản Google+ </span> </a>
-          </div>
-          <div class="btn-group facebook_login_button col-md-11 col-xs-11 col-sm-11 col-cs-12">
-            <a class='btn disabled col-md-3 col-sm-3 col-xs-3 col-cs-3'><i class="fa fa-facebook icon_facebook"></i></a>
-            <a class='col-md-9 col-sm-9 col-xs-9 col-cs-9' href='#'><span class="icon_facebook">Đăng nhập bằng tài khoản Facebook </span> </a>
+                <div class="btn-group goolge_login_button col-md-11 col-xs-11 col-sm-11 col-cs-12">
+                      <a class='btn disabled col-md-3 col-sm-3 col-xs-3 col-cs-3'><i class="fa fa-google-plus icon_google" ></i></a>
+                      <a class="col-md-9 col-sm-9 col-xs-9 col-cs-9" href='#'><span class="icon_google "> Đăng nhập bằng tài khoản Google+ </span> </a>
+                </div>
+                <div class="btn-group facebook_login_button col-md-11 col-xs-11 col-sm-11 col-cs-12">
+                      <a class='btn disabled col-md-3 col-sm-3 col-xs-3 col-cs-3'><i class="fa fa-facebook icon_facebook"></i></a>
+                      <a class='col-md-9 col-sm-9 col-xs-9 col-cs-9' href='#'><span class="icon_facebook">Đăng nhập bằng tài khoản Facebook </span> </a>
+                </div>
+              </div> 
+            </form>
           </div>
         </div>
-        <div class="col-md-11 col-sm-11 col-xs-11 col-sm-11 col-cs-12">
-          <div class="text_border">
-          </div>
-        </div>
-        <div class="col-md-12 col-sm-12 col-xs-12 col-cs-12">
-          <div class="username">
-            <label for="user_input" class="col-md-12 col-sm-12 col-xs-12 col-cs-12"> Tài khoản</label>
-            <input type="text" id="user_input" class="col-md-11 col-sm-11 col-xs-11 col-cs-12">
-          </div>
-          <div class=" password taikhoan">
-            <label for="password" class="col-md-12 col-sm-12 col-xs-12 col-cs-12"> Mật khẩu</label>
-            <input type="password" id="password" class="col-md-11 col-sm-11 col-xs-11 col-cs-12">
-          </div>
-            <div class=" submit_form taikhoan">
-              <button type="submit"  class="col-md-11 col-sm-11  col-xs-11 col-cs-12"> Đăng nhập </button>
-            </div>
-        </div>
-      </form>
     </div>
   </div>
 </div>
-
 <footer>
     <div class="container">
         <div class="row">

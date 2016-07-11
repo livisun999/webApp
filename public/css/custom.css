@@ -9,6 +9,7 @@ ul li {
 body {
 	font-size: 18px;
 }
+
 .header_bar {
 	background-color: #0062BC;
 	padding:5px;
@@ -36,6 +37,8 @@ footer a {
 footer ul {
 	margin-left: -30px;
 }
+/* Form login */
+
 .goolge_login_button,
 .facebook_login_button
 {
@@ -79,9 +82,8 @@ footer ul {
 .password input
 {
 
-	padding: 7px 20px;
-	border-radius: 11px;
-	border:1px solid #000000;
+	padding: 7px 0px;
+	
 }
 
 
@@ -105,17 +107,22 @@ footer ul {
 	top: -8px;
 }
 .hr_text {
-	position: absolute;
+	position: -ms-align-self: ;
+	align-self: ;lute;
 	left: 160px;
 	top: 0px;
 }
-.form_login_ .col-md-5 {
+.form_login_ .col-md-8,
+.form_
+ {
 	background-color: #FFFFFF;
 	margin:0px auto 100px;
 	padding: 20px 0px 10px 25px;
-	border-radius: 15px;
 	box-shadow: 0px 0px 15px 0px #d1d2d3 ;
-
+	border-radius:5px;
+ 	-webkit-box-shadow: 0 15px 6px -6px #c5c6c7;
+    	-moz-box-shadow: 0 15px 6px -6px #c5c6c7;
+         	box-shadow: 0 15px 0px 0px #c5c6c7;
 }
 .submit_form button {
 	margin: 30px 0px;
@@ -127,9 +134,11 @@ footer ul {
 	color:#FFFFFF;
 	font-weight: 400;
 }
-.text_login h4 {
+.text_login h3,
+.text_register h3
+ {
 	font-weight: 500;
-	font-size: 20px;
+	/*font-size: 20px;*/
 }
 .goolge_login_button a,
 .facebook_login_button a
@@ -205,9 +214,20 @@ footer ul {
 	width: 20px;
 	height: 20px;
 }
-.form_login_ .container .row {
+.form_login_ .container .row .modal-dialog,
+.form_register .container .row .modal-dialog
+ {
 	display: flex;
 }
+/*.form_ {
+	background-color: #FFFFFF;
+	margin:100px auto 20px;
+
+}*/
 .taikhoan {
 	padding-right: -15px;
 }
+
+/*end form login*/
+
+/*form register*/
