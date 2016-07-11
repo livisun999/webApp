@@ -41,6 +41,7 @@ footer ul {
 {
 	padding: 5px 0px;
 	border-radius: 15px;
+	margin:5px 1px;
 }
 .goolge_login_button a ,
 .facebook_login_button a {
@@ -67,12 +68,9 @@ footer ul {
 .facebook_login_button a:first-child
 {
 	border-right:2px solid #FFFFFF;
+	padding-left: 15px;
 }
-.goolge_login_button a:last-child,
-.facebook_login_button a:last-child
-{
-	padding-left: 10px;
-}
+ 
 .goolge_login_button span,
 .facebook_login_button span {
 
@@ -139,8 +137,8 @@ footer ul {
 	text-decoration: none;
 }
 .text_border {
-	border: 1px solid #dbdcde;
-	margin: 20px -5px 10px 0px;
+	border: 1px solid #dbdcde;  /* #dbdcde*/	
+	margin: 20px 0px 10px 0px;
 	color: #dbdcde;
 }
 .text_border:before {
