@@ -38,64 +38,7 @@ footer ul {
 	margin-left: -30px;
 }
 /* Form login */
-
-.goolge_login_button,
-.facebook_login_button
-{
-	padding: 5px 0px;
-	border-radius: 15px;
-	margin:5px 1px;
-}
-.goolge_login_button a ,
-.facebook_login_button a {
-	padding-top:10px;
-}
-
-.goolge_login_button {
-	background-color: #ef3f37;
-}
-.facebook_login_button{
-	background-color: #1176bc;
-}
-.icon_google,
-.icon_facebook
-{
-	color: #FFFFFF;
-}
-.goolge_login_button a:first-child .icon_google,
-.facebook_login_button a:first-child .icon_facebook
-{
-	font-size: 50px;
-}
-.goolge_login_button a:first-child,
-.facebook_login_button a:first-child
-{
-	border-right:2px solid #FFFFFF;
-	padding-left: 15px;
-}
  
-.goolge_login_button span,
-.facebook_login_button span {
-
-}
-.username input,
-.password input
-{
-
-	padding: 7px 0px;
-	
-}
-
-
-.username label,
-.password label
-{
-	margin-left: -15px;
-	padding-top: 15px;
-	color:#000000;
-	font-weight: 500;
-	padding-top: 15px; ;
-}
 
 .hr_1{
 	position: absolute;
@@ -112,60 +55,8 @@ footer ul {
 	left: 160px;
 	top: 0px;
 }
-.form_login_ .col-md-8,
-.form_
- {
-	background-color: #FFFFFF;
-	margin:0px auto 100px;
-	padding: 20px 0px 10px 25px;
-	box-shadow: 0px 0px 15px 0px #d1d2d3 ;
-	border-radius:5px;
- 	-webkit-box-shadow: 0 15px 6px -6px #c5c6c7;
-    	-moz-box-shadow: 0 15px 6px -6px #c5c6c7;
-         	box-shadow: 0 15px 0px 0px #c5c6c7;
-}
-.submit_form button {
-	margin: 30px 0px;
-	padding: 7px 0px ;
-
-	border-radius: 11px;
-	border: none;
-	background-color: #14a751;
-	color:#FFFFFF;
-	font-weight: 400;
-}
-.text_login h3,
-.text_register h3
- {
-	font-weight: 500;
-	/*font-size: 20px;*/
-}
-.goolge_login_button a,
-.facebook_login_button a
-{
-	text-decoration: none;
-}
-.text_border {
-	border: 1px solid #dbdcde;  /* #dbdcde*/	
-	margin: 20px 0px 10px 0px;
-	color: #dbdcde;
-}
-.text_border:before {
-	content: "hoặc";
-	position: absolute;
-	left: 42%;
-	background: #fff;
-	top: 0px;
-	padding: 10px;
-}
-
-.dieukhoan {
-	padding-top:30px ;
-	margin-left: -30px;
-}
-.text_dieukhoan{
-	color:#63b8e7;
-}
+ 
+. 
 .bt_choose_language {
 	margin-top: 10px;
 }
@@ -213,21 +104,95 @@ footer ul {
 .flag_ {
 	width: 20px;
 	height: 20px;
+} 
+
+/*FORM*/
+
+.form_login {
+	background-color: #FFFFFF;
+	padding: 20px 20px 50px 20px ;
+	border-radius: 10px;
+	margin-bottom: 100px;
 }
-.form_login_ .container .row .modal-dialog,
-.form_register .container .row .modal-dialog
- {
+.google_login{
+	background-color: #EE4036;
+}
+.face_login {
+	background-color: #1B75BB;
+}
+.face_login,
+.google_login {
+	border-radius: 10px ;
+	padding:15px 0px;
+	 
+}
+.minder_login button {
+	background-color: #00A551;
+	border-radius: 10px
+}
+.goo_face_login .btn-group {
+	margin:10px 20px;
+}
+.form_login .row,
+.face_login,
+.google_login
+{
 	display: flex;
 }
-/*.form_ {
-	background-color: #FFFFFF;
-	margin:100px auto 20px;
-
-}*/
-.taikhoan {
-	padding-right: -15px;
+.minder_login
+{
+	margin:0px auto;
 }
-
-/*end form login*/
-
-/*form register*/
+.face_login i,
+.google_login i {
+	font-size: 45px;
+	color: #FFFFFF;
+}
+.face_login a.btn,
+.google_login a.btn {
+	border-right: solid 1px #FFFFFF;
+} 
+.face_login a,
+.google_login a,
+.pass_regis a
+ {
+	text-decoration: none;
+}
+.face_login span,
+.google_login span {
+	color:#FFFFFF;
+} 
+.face_login a:last-child,
+.google_login a:last-child {
+	margin:auto 0px;
+}
+.text_border {
+	border: 1px solid #dbdcde;  /* #dbdcde*/	
+	margin: 20px 0px;
+	color: #dbdcde;
+}
+.text_border:before {
+	content: "hoặc";
+	position: absolute;
+	left: 42%;
+	background: #fff;
+	top: 0px;
+	padding: 10px;
+}
+.text_hoac {
+	padding: 10px 15px 10px 20px;
+}
+.pass_regis .col-md-6{
+	margin-top: 20px;
+}
+.pass_regis .col-md-6:last-child{
+	text-align: right;
+}
+.form_login h2 {
+	margin-bottom: 50px;
+}
+.minder_login input[type="checkbox"] {
+	margin: 20px 0px;
+}
+  
+/*END FORM*/

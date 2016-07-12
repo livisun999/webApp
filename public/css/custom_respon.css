@@ -160,31 +160,8 @@
 	.col-cs-offset-0 {
 	  margin-left: 0;
 	}
+ /
 
-	.form_login_  .form_ {
-		padding: 0;
-	}
-	.username input, .password input, .submit_form button {
-		padding-left: 15px;
-		padding-right: 15px;
-	}
-	.goolge_login_button .fa-google-plus, 
-	.facebook_login_button .fa-facebook
-	{
-    	color: #FFFFFF;
-    	margin-left: -7px;
-    	padding-right: 0px;
-	}
-	.goolge_login_button .col-cs-9
-	{
-
-		padding: 10px -15px 0px 3px;
-	}
-	.facebook_login_button .col-cs-9
-	{
-		padding-right: 5px;
-	}
-	
 }
 @media (min-width: 480px) and (max-width: 600px) { 
 	.col-ct-1, .col-ct-2, .col-ct-3, .col-ct-4, .col-ct-5, .col-ct-6, .col-ct-7, .col-ct-8, .col-ct-9, .col-ct-10, .col-ct-11, .col-ct-12 {
@@ -343,4 +320,5 @@
   .col-ct-offset-0 {
     margin-left: 0;
   }
+  
 }
