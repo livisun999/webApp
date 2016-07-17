@@ -250,7 +250,7 @@ footer ul {
  	background-color: #00ACDE;
  	position: relative;
  }
- .main >.col-md-12, .btn_thamgia, .btn_thamgia_bottom, .div_install {
+ .main >.introduce, .btn_thamgia, .btn_thamgia_bottom, .div_install {
  	display: flex;
  }
  .main > .col-md-12 .text_gioithieu {
@@ -310,14 +310,22 @@ footer ul {
 	text-decoration: none;
 	font-weight: 400;
 	font-size: 50px;
+	margin-bottom: 80px;
 }
-.text_thamgia {
+.text_thamgia p{
 	color:#FFFFFF;
 	font-size: 25px;
-	margin:80px 0px 20px 0px;
+	/*margin:80px 0px 20px 0px;*/
+	margin-bottom: 30px;
 }
 .install {
 	/*padding-top:1050px;*/
 	bottom: 100px;
-position: absolute;
+	position: absolute;
+}
+.btn_install .ios_install {
+	float: left;
+}
+.btn_install .android_install {
+	float: right;
 }
