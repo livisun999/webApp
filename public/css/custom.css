@@ -26,6 +26,9 @@ body {
 	font-weight: bold;
 	color: #FFFFFF;
 }
+.navbar {
+	margin-bottom: 0px;
+}
 footer {
 	padding:100px 0px 50px 0px;
 	background-color: #FFFFFF;
@@ -86,7 +89,7 @@ footer ul {
 	width: 20px;
 	height: 20px;
 } 
-
+/*-------------------------------------------------------------------------------------*/
 /*FORM LOGIN*/
 
 .form_login,
@@ -240,3 +243,81 @@ footer ul {
 	color:#7B7C7E;
 }
 /*END FORM REGISTER*/
+/*-------------------------------------------------------------------------------------*/
+/*INDEX*/
+.main {
+ 	height: 1500px;
+ 	background-color: #00ACDE;
+ 	position: relative;
+ }
+ .main >.col-md-12, .btn_thamgia, .btn_thamgia_bottom, .div_install {
+ 	display: flex;
+ }
+ .main > .col-md-12 .text_gioithieu {
+ 	margin:100px auto 30px;
+ }
+ .main > .col-md-12  .col-md-5  .col-md-12.p_title{
+ 	font-size: 25px;
+ 	font-weight: 500;
+ 	color: #FFFFFF;
+ 	letter-spacing: 1.2px;
+	/*padding: 0 0 0 25px;*/
+ }
+ .p_comment{
+ 	color:#FFFFFF;
+ 	line-height: 1.5;
+ 	/*letter-spacing: 1.5px;*/
+
+ 	/*text-align: justify;*/
+ 	/*margin:0px auto;*/
+ 	padding: 0 40px;
+ }
+ 
+.main .btn_thamgia  button,
+.main .btn_thamgia_bottom  button 
+{
+	padding:10px 0;
+	font-size: 30px;
+	margin:0px auto;
+	background-color: #F6921E;
+	color:#FFFFFF;
+	font-weight: 400;
+	border:1px solid #FFFFFF;
+	border-radius:20px;
+ 	-webkit-box-shadow: 0 8px 6px -6px #F05A28;
+    	-moz-box-shadow: 0 8px 6px -6px #F05A28;
+        	box-shadow: 0 8px 0px 0px #F05A28;
+}
+.main .col-md-12 button span {
+	padding:5px;
+}
+.text_upercase {
+	font-weight: 500;
+	font-size: 35px;
+	text-transform: uppercase;
+}
+.btn_thamgia_bottom {
+	/*margin-top: 900px;*/
+}
+.btn_install {
+	margin:0px auto;
+}
+.btn_install a {
+	padding: 7px 15px;
+	border-radius: 20px;
+	border:2px solid #FFFFFF;
+	color:#FFFFFF;
+	text-decoration: none;
+	font-weight: 400;
+	font-size: 50px;
+}
+.text_thamgia {
+	color:#FFFFFF;
+	font-size: 25px;
+	margin:80px 0px 20px 0px;
+}
+.install {
+	/*padding-top:1050px;*/
+	bottom: 100px;
+position: absolute;
+}

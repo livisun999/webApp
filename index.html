@@ -1,100 +1,150 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>AAAA</title>
-  <meta charset="utf-8">
-  <!-- Material Design fonts -->
-  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700">
-  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/icon?family=Material+Icons">
-  <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
-  <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap-theme.min.css">
-  <!-- Bootstrap -->
-  <link rel="stylesheet" type="text/css" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <title>AAAA</title>
+    <meta charset="utf-8">
+    <!-- Material Design fonts -->
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/icon?family=Material+Icons">
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+    <!--<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap-theme.min.css">-->
+    <!-- Bootstrap -->
+    <link rel="stylesheet" type="text/css" href="public/css/bootstrap.min.css">
 
-  <!-- Bootstrap Material Design -->
-  <link rel="stylesheet" type="text/css" href="public/css/bootstrap-material-design.css"/>
-  <link rel="stylesheet" type="text/css" href="public/css/ripples.min.css"/>
-  <link rel="stylesheet" type="text/css" href="public/css/custom.css"/>
-  <script src="public/js/jquery.min.js"></script>
-  <script src="public/js/bootstrap.min.js"></script>
-  <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>-->
-  <!--<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>-->
+    <!-- Bootstrap Material Design -->
+    <link rel="stylesheet" type="text/css" href="public/css/bootstrap-material-design.css"/>
+    <link rel="stylesheet" type="text/css" href="public/css/ripples.min.css"/>
+    <script src="public/js/jquery.min.js"></script>
+    <script src="public/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="public/css/custom.css"/>
+    <link rel="stylesheet" type="text/css" href="public/css/custom_respon.css"/>
+    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>-->
+    <!--<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>-->
 </head>
-<body>
-  <nav class="navbar header_bar">
+<body> 
+<nav class="navbar  header_bar">
     <div class="container">
-    <div class="row">
-      <div class="navbar-header col-md-12">
-        <div class="menu_left col-md-8 col-sm-8">
-          <a class="navbar-brand  col-md-3 minder_home" href="#">Minder</a>
-          <a class="navbar-brand  col-md-3" href="#">Trang Chủ</a>
-          <a class="navbar-brand  col-md-3" href="#">Góp ý</a>
-        </div>  
-
-        <div class="col-md-4 menu-right col-sm-4">
-            <div class="input-group-btn col-md-3 col-md-offset-9 col-sm-3  col-sm-offset-6 ">
-              <button type="button" class="btn btn-default dropdown-toggle bt_choose_language" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="public/images/vn.png"> <span class="glyphicon glyphicon-triangle-bottom"></span></button>
-              <ul class="dropdown-menu dropdown-menu-right">
-                <li><a href="#">Action</a></li>
-                <li><a href="#">Another action</a></li>
-                <li><a href="#">Something else here</a></li>
-                <li role="separator" class="divider"></li>
-                <li><a href="#">Separated link</a></li>
-              </ul>
-            </div><!-- /btn-group -->
-        </div><!-- /.col-lg-6 -->
-      </div>
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header menu_respon">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#showMenu" aria-expanded="true">
+                <span class="sr-only">Menu</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class=" minder_home" href="#">Minder</a>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse menu_left" id="showMenu">
+            <ul class="nav navbar-nav  ">
+                <li class="menu_button  "><a href="#" class="menu_hover">Trang Chủ</a></li>
+                <li class="menu_button  "><a href="#" class="menu_hover">Góp ý</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right  ">
+                <li class="menu_button"> <a href="#" class="menu_hover" data-toggle="modal" data-target="#modal_login">Đăng nhập</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle " data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <img src="public/images/Vietnam.png" class="flag_"> <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#" >1</a></li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                        <li><a href="#"> </a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid --> 
+</nav> 
+  <div class="form">
+    <div class="container">
+      <div class="row">
+        <div class="modal fade col-md-12" id="modal_login" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+          <div class="modal-dialog " role="document"> 
+            <form class="col-md-9 col-sm-9 col-xs-9 col-cs-12 form_login">   
+              <h2 class="text-center"> Đăng nhập </h2>
+              <div class="row">
+                <div class="minder_login form-group col-md-11 col-sm-11 col-xs-11 col-cs-11">
+                  <input type="text" class="form-control col-md-12 col-sm-12 col-xs-12 col-cs-12" placeholder="Tài Khoản">
+                  <input type="password" class="form-control col-md-12 col-sm-12 col-xs-12 col-cs-12" placeholder="Mật khẩu">
+                  <input type="checkbox" > <span class="save_pass"> Ghi nhớ mật khẩu </span>
+                  <button type="submit" class="  col-md-12 col-sm-12 col-xs-12 col-cs-12"> Đăng nhập</button>
+                </div>
+              </div>
+              <div class="col-md-12 col-sm-12 col-xs-12 col-cs-12 text_hoac">
+                <div class="text_border"></div>
+              </div>
+              <div class="goo_face_login ">
+                <div class=" btn-group col-md-11 col-sm-11 col-xs-11 col-cs-11 google_login">
+                  <a class='btn disabled col-md-3 col-sm-3 col-xs-3 col-cs-3'><i class="fa fa-google-plus icon_google" ></i></a>
+                  <a class="col-md-9 col-sm-9 col-xs-9 col-cs-9" href='#'><span class="icon_google "> Đăng nhập bằng tài khoản Google+ </span> </a>
+                </div>
+                <div class="btn-group col-md-11 col-sm-11 col-xs-11 col-cs-11 face_login">
+                  <a class='btn disabled col-md-3 col-sm-3 col-xs-3 col-cs-3'><i class="fa fa-facebook icon_facebook" ></i></a>
+                  <a class="col-md-9 col-sm-9 col-xs-9 col-cs-9" href='#'><span class="icon_facebook col-cs-12"> Đăng nhập bằng tài khoản Facebook </span> </a>
+                </div>
+              </div>
+              <div class="pass_regis">
+                <div class="col-md-6 col-sm-6 col-xs-6 col-cs-12 col-ct-12">
+                  <a href="#"> Quen mat khau </a>
+                </div>
+                <div class="col-md-6 col-sm-6 col-xs-6 col-cs-12 col-ct-12">
+                  <a href="#"> Dang ky </a>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
     </div>
   </div>
-</nav>
-
+</div>
 <footer>
-  <div class="container">
-    <div class="row">
-      <div class="col-md-3 footer">
-        <ul>
-          <li><a href="#"><strong>Minder</strong></a></li>
-          <li><a href="">Giới thiệu</a></li>
-          <li><a href="#">Khóa học</a></li>
-          <li><a href="#">Liên hệ</a></li>
-          <li><a href="#">Đội ngũ</a></li>
-          <li><a href="#">Cơ hội việc làm</a></li>
-          <li> <a href="#">Điều khoản sử dụng</a></li>
-          <li><a href="#">Chính sách bảo mật</a></li>
-        </ul>
-      </div>
-      <div class="col-md-3">
-        <ul>
-          <li><a href="#"><strong>Xem thêm</strong></a></li>
-          <li><a href="#">Blog</a></li>
-          <li><a href="#">Diễn Đàn</a></li>
-          <li ><a href="#">Giáo viên</a> </li>
-        </ul>
-      </div>
-      <div class="col-md-3">
-        <ul>
-          <li><a href="#"><strong>Trợ giúp</strong></a></li>
-          <li><a href="#">Câu hỏi thường gặp</a></li>
-          <li><a href="#">Câu hỏi thường gặp</a></li>
-          <li><a href="#">Trợ giúp</a></li>
-        </ul>
-      </div>
-      <div class="col-md-3">
-        <ul>
-          <li><a href="#"><strong>Tìm khóa họa</strong></a></li>
-          <li><a href="">Ngoại ngữ</a></li>
-          <li><a href="#">Nghệ thuật và văn học</a></li>
-          <li><a href="#">Toán học và khoa học</a></li>
-          <li><a href="#">Thế giới tự nhiên</a></li>
-          <li><a href="#">Lịch sử địa lý</a></li>
-          <li><a href="#">Chuyên môn và nghề nghiệp</a></li>
-          <li><a href="#">Giải trí</a></li>
-          <li><a href="#">Khoa học thưởng thức</a></li>
-          <li><a href="#">Học tiếng tây Ban Nha</a></li>
-        </ul>
-      </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 col-sm-3 col-xs-6 col-cs-12 footer">
+                <ul>
+                    <li><a href="#"><strong>Minder</strong></a></li>
+                    <li><a href="">Giới thiệu</a></li>
+                    <li><a href="#">Khóa học</a></li>
+                    <li><a href="#">Liên hệ</a></li>
+                    <li><a href="#">Đội ngũ</a></li>
+                    <li><a href="#">Cơ hội việc làm</a></li>
+                    <li> <a href="#">Điều khoản sử dụng</a></li>
+                    <li><a href="#">Chính sách bảo mật</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3 col-sm-3 col-xs-6 col-cs-12">
+                <ul>
+                    <li><a href="#"><strong>Xem thêm</strong></a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Diễn Đàn</a></li>
+                    <li ><a href="#">Giáo viên</a> </li>
+                </ul>
+            </div>
+            <div class="col-md-3 col-sm-3 col-xs-6 col-cs-12">
+                <ul>
+                    <li><a href="#"><strong>Trợ giúp</strong></a></li>
+                    <li><a href="#">Câu hỏi thường gặp</a></li>
+                    <li><a href="#">Câu hỏi thường gặp</a></li>
+                    <li><a href="#">Trợ giúp</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3 col-sm-3 col-xs-6 col-cs-12">
+                <ul>
+                    <li><a href="#"><strong>Tìm khóa họa</strong></a></li>
+                    <li><a href="">Ngoại ngữ</a></li>
+                    <li><a href="#">Nghệ thuật và văn học</a></li>
+                    <li><a href="#">Toán học và khoa học</a></li>
+                    <li><a href="#">Thế giới tự nhiên</a></li>
+                    <li><a href="#">Lịch sử địa lý</a></li>
+                    <li><a href="#">Chuyên môn và nghề nghiệp</a></li>
+                    <li><a href="#">Giải trí</a></li>
+                    <li><a href="#">Khoa học thưởng thức</a></li>
+                    <li><a href="#">Học tiếng tây Ban Nha</a></li>
+                </ul>
+            </div>
+        </div>
     </div>
-  </div>
 </footer>
 </body>
 </html>
