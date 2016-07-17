@@ -20,11 +20,13 @@ body {
 }
 .menu_left ul li a {
 	color: #FFFFFF;
+	padding:0px 25px;
 }
 .minder_home {
 	font-size: 35px;
 	font-weight: bold;
 	color: #FFFFFF;
+	margin-right: 30px;
 }
 .navbar {
 	margin-bottom: 0px;
@@ -65,7 +67,7 @@ footer ul {
 }
 
 .menu_left ul li{
-	margin-left: 30px;
+	/*padding:0px 5px;*/
 }
 .minder_home:hover{
 	color:#f9f9f9;
@@ -296,9 +298,7 @@ footer ul {
 	font-size: 35px;
 	text-transform: uppercase;
 }
-.btn_thamgia_bottom {
-	/*margin-top: 900px;*/
-}
+ 
 .btn_install {
 	margin:0px auto;
 }
@@ -328,4 +328,72 @@ footer ul {
 }
 .btn_install .android_install {
 	float: right;
+}
+
+/*BAIHOC*/
+.main_baihoc {
+	background-color: #E8E9EA;
+	height: 1500px;
+	position: relative;
+}
+form.form_search_baihoc div:first-child {
+	margin-top:15px;
+}
+form .search_tu {
+	padding:10px 0px 10px 40px;
+	border: none;
+	border-radius: 7px;
+}
+form.form_search_baihoc {
+	position: relative;
+}
+form.form_search_baihoc:before {
+	content: '';
+	display: block;
+	width: 25px;
+    height: 25px;
+    background-image: url(http://getbootstrap.com/2.3.2/assets/img/glyphicons-halflings.png);
+    background-position: -48px 0;
+    position: absolute;
+    top:30px;
+    left:30px;
+    opacity: .5;
+    z-index: 1000;    
+}
+
+.row_search {
+	margin-bottom: 150px;
+}
+button.contract,
+.btn_luyentap,
+.btn_game
+{
+	padding:9px 0;
+	background-color: #25A8E0;
+	border: none;
+	border-radius: 7px;
+	float: left;
+}
+.ct_margin_left {
+	margin-left: -250px;
+	color: #FFFFFF;
+	font-size: 20px;
+	font-weight: 500;
+}
+button.btn_luyentap img,
+button.btn_game img
+{
+	height: 30px;
+}
+.row_contract {
+	margin-bottom: 60px;
+}
+.row_word {
+	background-color: #FFFFFF;
+	margin: 20px 20px 0px 0px;
+}
+.word_image {
+	background-color: #F4F5F6;
+	padding:120px 0px ;
+	margin-bottom: 20px;
 }
