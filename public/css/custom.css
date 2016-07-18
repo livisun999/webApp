@@ -333,7 +333,7 @@ footer ul {
 /*BAIHOC*/
 .main_baihoc {
 	background-color: #E8E9EA;
-	height: 1500px;
+	/*height: 1500px;*/
 	position: relative;
 }
 form.form_search_baihoc div:first-child {
@@ -368,32 +368,61 @@ button.contract,
 .btn_luyentap,
 .btn_game
 {
-	padding:9px 0;
+	padding:9px 0px;
 	background-color: #25A8E0;
 	border: none;
 	border-radius: 7px;
 	float: left;
+	margin-bottom: 20px;
 }
 .ct_margin_left {
-	margin-left: -250px;
+	/*margin-left: -250px;*/
 	color: #FFFFFF;
 	font-size: 20px;
 	font-weight: 500;
+}
+span.ct_margin_left {
+	text-align: left;
 }
 button.btn_luyentap img,
 button.btn_game img
 {
 	height: 30px;
 }
-.row_contract {
-	margin-bottom: 60px;
+.row_contract,
+.row_baihoc .col-md-12 .row .col-md-4
+{
+	margin-bottom: 40px;
 }
 .row_word {
 	background-color: #FFFFFF;
-	margin: 20px 20px 0px 0px;
+	/*margin: 20px 10px 20px 0px;*/
+	padding: 30px 10px 0px 20px;
 }
 .word_image {
 	background-color: #F4F5F6;
 	padding:120px 0px ;
 	margin-bottom: 20px;
+}
+.word_action {	
+	margin-top:170px;
+}
+.word_action a {
+	padding-left: 15px;
+}
+.word_sound a {
+	text-decoration: none;
+	padding-left:15px;
+}
+.word_word p,
+.word_read p,
+.word_description p
+{
+	margin-left: -15px;
+}
+.word_word {
+	font-size: 25px;
+}
+.row_baihoc:last-child {
+	margin-bottom: 100px;
 }

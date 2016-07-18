@@ -218,6 +218,19 @@
 	.text_upercase { 
 		font-size: 30px;
 	}
+	.word_sound a {
+		text-decoration: none;
+		padding-left:5px;
+	}
+	.word_action a {
+		padding-left: 5px;
+	}
+	.word_image {
+		padding:100px 0px ;
+	}
+	.word_action {	
+		margin-top:90px;
+	}
 
 }
 @media (min-width: 480px) and (max-width: 600px) { 
