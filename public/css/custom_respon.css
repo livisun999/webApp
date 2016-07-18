@@ -231,6 +231,10 @@
 	.word_action {	
 		margin-top:90px;
 	}
+	.khoahoc_name {
+		
+		margin-bottom:20px ;
+	}
 
 }
 @media (min-width: 480px) and (max-width: 600px) { 
@@ -401,9 +405,25 @@
 		padding-right: 0px;
 		padding-left: 0px;
 	}
-	.btn_install .ios_install,
-	.btn_install .android_install
+	.div_game_luyentap {
+		float: left;
+	}
+	.khoahoc_action a {
+		padding-left: 0px;
+	}
+	.row_baihoc .row .col-ct-8 {
+		padding:0px 10px;
+	}
+	.btn_margin_goiy_khoahoc {
+		display: flex;
+	}
+	.btn_margin_goiy_khoahoc button,
+	.khoahoc_name
 	{
-
-	} 
+		/*margin:0px auto 20px;*/
+	}
+	.col-xs-6.btn_margin_goiy_khoahoc {
+		float: none;
+		margin:0px auto 20px ;
+	}
 }

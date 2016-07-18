@@ -336,18 +336,27 @@ footer ul {
 	/*height: 1500px;*/
 	position: relative;
 }
-form.form_search_baihoc div:first-child {
+form.form_search_baihoc div:first-child,
+form.form_search_khoahoc div:first-child
+{
 	margin-top:15px;
 }
-form .search_tu {
+
+form .search_tu,
+form .search_khoahoc
+{
 	padding:10px 0px 10px 40px;
 	border: none;
 	border-radius: 7px;
 }
-form.form_search_baihoc {
+form.form_search_baihoc,
+form.form_search_khoahoc
+{
 	position: relative;
 }
-form.form_search_baihoc:before {
+form.form_search_baihoc:before,
+form.form_search_khoahoc:before
+{
 	content: '';
 	display: block;
 	width: 25px;
@@ -361,9 +370,6 @@ form.form_search_baihoc:before {
     z-index: 1000;    
 }
 
-.row_search {
-	margin-bottom: 150px;
-}
 button.contract,
 .btn_luyentap,
 .btn_game
@@ -394,12 +400,16 @@ button.btn_game img
 {
 	margin-bottom: 40px;
 }
-.row_word {
+.row_word, 
+{
 	background-color: #FFFFFF;
 	/*margin: 20px 10px 20px 0px;*/
 	padding: 30px 10px 0px 20px;
+	font-size: 25px;
 }
-.word_image {
+.word_image,
+.khoahoc_image
+{
 	background-color: #F4F5F6;
 	padding:120px 0px ;
 	margin-bottom: 20px;
@@ -420,9 +430,68 @@ button.btn_game img
 {
 	margin-left: -15px;
 }
-.word_word {
-	font-size: 25px;
-}
+ 
 .row_baihoc:last-child {
 	margin-bottom: 100px;
+}
+.div_game_luyentap {
+	float: right;
+}
+.row_contract {
+	margin-top:150px;
+}
+/*KHOA HOC */
+
+.row_nav {
+	margin-top:20px;
+}
+.nav_khoahoc {
+	background-color: #26AbE2;
+	border-radius: 15px;
+}
+.row_khoahoc {
+	margin-top:150px;
+}
+.row_quantam {
+	margin-top: 70px;
+}
+.khoahoc_action {
+	margin-top:130px;
+}
+.khoahoc_action a {
+	padding-left: 5px;
+}
+.khoahoc_image {
+	padding:100px 0px ;
+	border-radius: 5px;
+}
+.khoahoc_name {
+	background-color: #FFFFFF;
+	/*margin: 5px;*/
+	padding: 20px 10px 0px 20px;
+}
+.word_word p:first-child {
+	font-size: 25px;
+	padding: 0 0 30px 0;
+	text-decoration: none;
+}
+.khoahoc_name a {
+	
+}
+.khoahoc_hover {
+	/*padding: 15px;*/
+}
+/*.khoahoc_hover:hover {
+	background-color: #F6AC41;
+	border:5px solid #F69322;
+}*/
+.khoahoc_name:hover {
+	background-color: #F6AC41;
+	
+	color:#FFFFFF;
+	
+}
+.khoahoc_name {
+		
+	margin-bottom:20px ;
 }
