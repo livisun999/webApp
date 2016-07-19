@@ -91,6 +91,9 @@ footer ul {
 	width: 20px;
 	height: 20px;
 } 
+.color_logo_minder {
+	color: #26AbE2;	
+}
 /*-------------------------------------------------------------------------------------*/
 /*FORM LOGIN*/
 
@@ -400,7 +403,7 @@ button.btn_game img
 {
 	margin-bottom: 40px;
 }
-.row_word, 
+.row_word
 {
 	background-color: #FFFFFF;
 	/*margin: 20px 10px 20px 0px;*/
@@ -494,4 +497,46 @@ button.btn_game img
 .khoahoc_name {
 		
 	margin-bottom:20px ;
+}
+/*CHON BAI HOC*/
+.row_infor {
+	background-color: #26AbE2;
+	border-radius: 5px;
+	margin:40px 0 60px 0;
+}
+.row_infor button {
+	float: right;
+	background-color: #FBAF42;
+	border:none;
+	padding: 10px 0 10px 0;
+	margin:0 0px 20px 0px;
+	border-radius:5px;
+}
+.row_infor button:last-child {
+	
+	margin-right: 20px;
+
+}
+.row_infor p {
+	color:#FFFFFF;
+	font-size: 22px;
+	line-height: 0.85;
+	padding-left: 30px;
+	font-weight: 400;
+}
+.row_infor p:first-child {
+	margin-top:20px;
+}
+.row_share_baihoc button {
+	padding: 25px 0;
+	background-color: #1176BC;
+	border:none;
+	color:#FFFFFF;
+	font-size: 45px;
+	border-radius: 5px;
+}
+.row_share_baihoc i {
+	margin-right: 25px;
+	
+	font-size: 70px;
 }

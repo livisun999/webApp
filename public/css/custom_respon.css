@@ -235,6 +235,21 @@
 		
 		margin-bottom:20px ;
 	}
+	/*CHON BAI HOC*/
+	.row_infor button {
+		float: left;
+	}
+	.row_infor p {
+		padding-left: 5px;
+	}
+	.row_share_baihoc button {
+		padding: 15px 0;
+		font-size: 25px;
+		margin-bottom: 20px;
+	}
+	.row_share_baihoc i {
+		font-size: 30px;
+	}
 
 }
 @media (min-width: 480px) and (max-width: 600px) { 
@@ -425,5 +440,24 @@
 	.col-xs-6.btn_margin_goiy_khoahoc {
 		float: none;
 		margin:0px auto 20px ;
+	}
+	/*CHON BAI HOC*/
+	.row_share_baihoc button {
+		padding: 25px 0;
+		font-size: 35px;
+		margin-bottom: 20px;
+	}
+	.row_share_baihoc i {
+		font-size: 40px;
+	}
+}
+@media (min-width: 600px) and (max-width: 980px) { 
+	.row_share_baihoc button {
+		padding: 25px 0;
+		font-size: 35px;
+		margin-bottom: 20px;
+	}
+	.row_share_baihoc i {
+		font-size: 40px;
 	}
 }
