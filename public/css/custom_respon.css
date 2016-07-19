@@ -250,6 +250,28 @@
 	.row_share_baihoc i {
 		font-size: 30px;
 	}
+	.main_modal_hoanthanh a i{
+		font-size: 30px;
+		margin-bottom: 30px;
+	}
+	.p_hoanthanh {
+		font-size: 30px;
+		margin-bottom: 30px;	
+	}
+	.p_infor {
+		font-size: 25px;
+		margin-bottom: 30px;
+	}
+	.main_modal_hoanthanh .col-md-12:first-child {
+		margin-bottom: 30px;
+	}
+	.main_modal_hoanthanh button { 
+		font-size: 25px;
+		margin-top:30px;
+	}
+	.go_game{
+		margin-top:20px;
+	}
 
 }
 @media (min-width: 480px) and (max-width: 600px) { 
@@ -449,6 +471,9 @@
 	}
 	.row_share_baihoc i {
 		font-size: 40px;
+	}
+	.go_game {
+		float: right;
 	}
 }
 @media (min-width: 600px) and (max-width: 980px) { 

@@ -629,3 +629,61 @@ button.btn_game img
 .btn_save_ {
 	margin-top:50px;
 }
+.main_modal_hoanthanh {
+	background-color: #FFFFFF;
+	border-radius: 5px;
+	padding: 0px 0 50px;
+	margin-bottom: 20px;
+}
+.p_hoanthanh  {
+	font-size: 50px;
+	color:#FAAF40;
+	font-weight: 400;
+	margin-bottom: 40px;
+}
+.p_infor {
+	font-size: 30px;
+	color:#F16232;
+	font-weight: 300;
+}
+.main_modal_hoanthanh button {
+	float: none;
+	margin: 0px auto;
+	color:#FFFFFF;
+	background-color: #26A9E0;
+	border:none;
+	padding:15px 25px;
+	font-size: 30px;
+	border-radius: 5px;
+	margin-top:50px;
+}
+.btn_hoanthanh_tieptuc {
+	display: flex;
+}
+.go_game, .go_learn {
+	padding: 2px 25px;
+	color: #26A9E0;
+	background-color: #FFFFFF;
+	border:none;
+	border-radius: 5px;
+	
+}
+.go_game i, .go_learn i {
+	font-size: 60px;
+}
+.go_game {
+	float: right;
+}
+.main_modal_hoanthanh a i{
+	color: #A5A7AA;
+	float: right;
+	font-size: 50px;
+	/*font-weight: 300;*/
+	padding: 20px 20px 0px 0px;
+}
+.main_modal_hoanthanh .col-md-12:first-child {
+	margin-bottom: 50px;
+}
+.modal_hoanthanh .col-md-12:first-child{
+	margin-bottom: 40px;
+}
