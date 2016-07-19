@@ -528,7 +528,7 @@ button.btn_game img
 	margin-top:20px;
 }
 .row_share_baihoc button {
-	padding: 25px 0;
+	padding: 20px 0;
 	background-color: #1176BC;
 	border:none;
 	color:#FFFFFF;
@@ -539,4 +539,93 @@ button.btn_game img
 	margin-right: 25px;
 	
 	font-size: 70px;
+}
+/*FlashCard1*/
+
+.row_flash {
+	background-color: #FFFFFF;
+	/*height: 600px;*/
+	border-radius: 5px;
+	margin-bottom: 150px;
+	padding:50px 0 ;
+}
+.div_learn_word {
+	/*position: relative;*/
+	float: none;
+	/*clear:both;*/
+	border-radius: 15px;
+	/*border:1px solid #A7A5A5;*/
+	height: 380px;
+	margin:0px auto;
+	/*padding: 50px 0px;*/
+	-webkit-box-shadow: 3px 5px 23px -6px rgba(0,0,0,0.64);
+	-moz-box-shadow: 3px 5px 23px -6px rgba(0,0,0,0.64);
+	box-shadow: 3px 5px 23px -6px rgba(0,0,0,0.64);
+}
+.text_learn_word {
+	margin-bottom: 40px;
+}
+.text_learn_word p{
+	text-align: center;
+
+}
+.btn_d_save_learn,
+.btn_save_learn
+{
+
+	border:none;
+	padding:2px 50px;
+	border-radius: 5px;
+}
+.btn_d_save_learn {
+	background-color: #EF3F37;
+}
+.btn_save_learn {
+	background-color: #3AB44A;
+/*	float: right;*/
+}
+
+.btn_save_learn  i,
+.btn_d_save_learn  i
+{
+	color:#FFFFFF;
+	font-size: 50px;
+}
+.div_sv .col-md-12:last-child,
+.btn_save_ .col-md-12:last-child
+{
+	display: flex;
+}
+.div_sv .col-md-12 button,
+.btn_save_ .col-md-12 button
+{
+	margin:0px auto;
+}
+.div_learn_word p:first-child {
+	font-size: 30px;
+	font-weight: 400;
+	color:#283B91;
+	/*top: 50%;*/
+}
+.div_learn_word a {
+	margin-left: 20px;
+	font-size: 30px;
+	position : relative;
+	/*bottom: -100px;*/
+	/*margin-top:250px;*/
+}
+.div_learn_word p:first-child
+{
+	 
+	/*padding:60% 5px 0;*/
+}
+.text_des_word p:first-child {
+	padding:40% 5px 0;	
+} 
+.row_flash .col-md-12:last-child {
+	/*margin-bottom: 50px;*/
+}
+.div_sv,
+.btn_save_ {
+	margin-top:50px;
 }
