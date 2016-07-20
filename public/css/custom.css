@@ -687,3 +687,22 @@ button.btn_game img
 .modal_hoanthanh .col-md-12:first-child{
 	margin-bottom: 40px;
 }
+/*Chon tro choi*/
+.row_select_game div:first-child {
+	background-color: #FFFFFF;
+	/*margin: 50px;*/
+	border-radius: 5px;
+	margin-bottom: 20px;
+}
+.row_select_game  p {
+	font-size: 30px;
+	color:#808184;
+	font-weight: 400;
+}
+.game_title {
+	margin-bottom: 50px;
+}
+.row_select_game img {
+	    height: auto;
+    max-width: 100%;
+}
