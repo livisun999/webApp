@@ -12,7 +12,14 @@ ul li {
 body {
 	font-size: 18px;
 }
+.header_bar .navbar-nav {
+	margin-top: 7px;
+}
 
+.header_bar .navbar-nav > li > a {
+	padding-top: 7px;
+	padding-bottom: 7px;
+}
 .header_bar {
 	background-color: #0062BC;
 	padding:5px;
