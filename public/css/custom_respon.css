@@ -298,8 +298,20 @@
 	.text_st_game {
 		padding-bottom: 20px;
 	}
-
-}
+	.g_listen_action a {
+		padding: 15px 13px 9px;
+		float:right;
+	}
+	.g_time .col-md-4 {
+		padding: 12px 20px 12px;
+		margin-left: 15px;
+	}
+	.g_time p {
+		font-size: 25px;
+	}
+	.g_listen_action a i{
+		font-size: 25px;
+	}
 @media (min-width: 480px) and (max-width: 600px) { 
 	.col-ct-1, .col-ct-2, .col-ct-3, .col-ct-4, .col-ct-5, .col-ct-6, .col-ct-7, .col-ct-8, .col-ct-9, .col-ct-10, .col-ct-11, .col-ct-12 {
 		float: left;

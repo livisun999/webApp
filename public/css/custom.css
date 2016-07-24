@@ -778,3 +778,48 @@ a.ic_game_right {
 .btn_st_game_ {
 	margin-top: 70px;
 }
+/*Game Khop  Tu*/
+.g_time {
+	display: flex;
+	margin-bottom: 50px;
+}
+.g_time .col-md-4 {
+	margin:0px auto;
+	background-color: #E6E7E8;
+	border-radius: 30px;
+	padding:10px 30px;
+	font-weight: 400;
+	color:#F05A28;
+}
+.g_time p {
+	text-align: center;
+	/*padding: 5px 0;*/
+	margin:0 0 0 0;
+	font-size: 35px;
+}
+.g_listen_action a i{
+	font-size: 40px;
+	/*background-color: #FFFFFF;*/
+	color:#A6A8AB;
+
+}
+.g_listen_action a {
+	border-radius: 50%;
+	border:2px solid #FFFFFF;
+	/*font-size: 50px;*/
+	padding:10px 13px;
+	border:5px solid #A6A8AB;
+
+}
+.g_link_word {
+	background-color: #FFFFFF;
+	border-radius: 15px;
+	margin-bottom: 100px;
+	padding:20px 0;
+}
+.game_cl {
+	background-color: #E6E7E8;
+	border-radius: 5px;
+	padding:40px;
+	margin-bottom: 15px;
+}
