@@ -695,7 +695,7 @@ button.btn_game img
 	margin-bottom: 50px;
 }
 .modal_hoanthanh .col-md-12:first-child{
-	margin-bottom: 40px;
+	margin-bottom: 20px;
 }
 /*Chon tro choi*/
 .row_select_game div:first-child {
@@ -876,4 +876,79 @@ a.ic_game_right {
 	background-color: #E6E7E8;
 	border-radius: 15px;
 	height: 350px;
+}
+/*MODAL HOAN THANH GAME*/
+.md_ht_title p{
+	font-size: 80px;
+	color:#E8891C;
+	font-weight: 500;
+	border-radius:50%;
+	background-color: #FFFFFF;
+	border:5px solid #EF5A28;
+	display: inline;
+	padding:0 35px;
+	margin:0px auto;	
+}
+.md_ht_title {
+	display: flex;
+	z-index: 2;
+}
+.main_modal_done_game {
+	background-color: #FFFFFF;
+	border-radius: 15px;
+	top:-60px;
+	
+	z-index: 1;
+}
+.content_md_win {
+	margin-top: 100px;
+	/*display: flex;*/
+}
+.content_md_win p:first-child {
+	
+	font-size: 30px;
+	color:#F05A28;
+	font-weight: 400;
+}
+.content_md_win p {
+	text-align: center;
+}
+.content_md_win p i { 
+	font-size: 150px;
+	color: #FFF100;
+}
+.content_md_win a {
+	background-color: #4CC8F4;
+	text-decoration: none;
+	color:#FFFFFF;
+	font-size: 30px;
+	padding:10px 20px ;
+	border-radius: 20px;
+	margin:0px auto;
+	text-align: center;
+	/*margin-top: 20px;*/
+	font-weight: 350;
+}
+.content_md_win a i {
+	margin-left: 40px;
+	margin-right: 40px;
+}
+.txt_continue_center {
+	display: flex;
+}
+.btn_get_diamon {
+	z-index: 1;
+	/*top:400px;	*/
+}
+.btn_get_diamon a {
+	margin-bottom: 100px;
+	padding: 20px 50px;
+	text-decoration: none;
+	background-color: #4CC8F4;
+	border-radius: 15px;
+	color:#FFFFFF;
+	text-align: center;
+	margin-top: -50px;
+	font-size: 30px;
+	font-weight: 350;
 }
