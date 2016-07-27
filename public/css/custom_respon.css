@@ -367,6 +367,9 @@
 	.lt_img {
 		height: 200px;
 	}
+	.bd_lt2_mic a:first-child {
+		padding: 31px 52px 30px;
+	}
 }
 
 @media (min-width: 480px) and (max-width: 600px) { 
@@ -582,6 +585,7 @@
 	.lt_img {
 		height: 250px;
 	}
+
 }
 @media (min-width: 600px) and (max-width: 980px) { 
 	.row_share_baihoc button {

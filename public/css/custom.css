@@ -1109,3 +1109,30 @@ p.txt_lt_word{
 .lt_btn {
 	margin-top:40px;
 }
+/*LUYENT TAP2 */
+.lt2_mic a i{
+	font-size: 120px;
+	color:#FFFFFF;
+}
+.bd_lt2_mic a:first-child {
+	background-color: #FBAF42;
+	border-radius: 50%;
+	padding: 41px 62px 40px;
+	margin:0px auto;
+}
+.bd_lt2_mic  {
+	margin:50px auto 0px;
+	display: flex;
+}
+.lt2_cancel{
+	margin:20px auto 0;
+	display: flex;
+}
+
+.lt2_cancel a:first-child {
+	margin:0px auto;
+	text-decoration: none;
+	text-align: center;
+	font-size: 25px;
+	font-weight: 400;
+}
