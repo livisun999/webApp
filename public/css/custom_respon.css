@@ -374,6 +374,17 @@
 		float: left;
 		/*margin-bottom: 30px;*/
 	}
+	.form_help a{
+		float: left;
+		margin-top: 20px;
+	}
+	.form_lt5 input {
+		height:50px;
+		font-size: 20px;
+	}
+	.lt_btn button.lt_continue {
+		padding:10px 61px;
+	}
 }
 
 @media (min-width: 480px) and (max-width: 600px) { 
@@ -588,6 +599,17 @@
 	}
 	.lt_img {
 		height: 250px;
+	}
+	/*.form_help a{
+		float: left;
+		margin-top: 20px;
+	}*/
+	.form_lt5 input {
+		height:70px;
+		font-size: 30px;
+	}
+	.lt_btn button.lt_continue {
+		padding:15px 81px;
 	}
 
 }
