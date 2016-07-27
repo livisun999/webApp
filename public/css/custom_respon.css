@@ -370,6 +370,10 @@
 	.bd_lt2_mic a:first-child {
 		padding: 31px 52px 30px;
 	}
+	.lt4_volume a i {
+		float: left;
+		/*margin-bottom: 30px;*/
+	}
 }
 
 @media (min-width: 480px) and (max-width: 600px) { 
