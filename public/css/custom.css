@@ -1136,3 +1136,29 @@ p.txt_lt_word{
 	font-size: 25px;
 	font-weight: 400;
 }
+/*LUYEN TAP 3*/
+.row_lt3_select .col-md-5 {
+	background-color: #D1D2D3;
+	border-radius: 15px;
+	padding: 10px 0;
+}
+.cl_lt3_div {
+	display: flex;
+}
+.cl_lt3_div a {
+	margin:0px auto;
+	color:#FFFFFF;
+}
+.cl_lt3_div a i {
+	font-size: 60px;
+}
+.row_lt3_select {
+	margin-bottom: 20px;
+}
+.row_lt3_select .lt3_selected {
+	background-color: #FBAF42;
+}
+.txt_lt_3 p:first-child {
+	margin: 0 0 50px 30px ;
+	padding-right: 30px;
+}
