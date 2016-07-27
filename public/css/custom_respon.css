@@ -349,6 +349,24 @@
 		font-size: 60px;
 		padding:0 25px;
 	}
+	.lt_time_number {
+		top:-65px;
+		float: right;
+		
+	}
+	.lt_close {
+		float: left;
+		margin-bottom: 30px;
+	}
+	ul.checkout-bar li::before {
+		left: 95%;
+	}
+	.txt_lt_volume {
+		margin-bottom: 20px;
+	}
+	.lt_img {
+		height: 200px;
+	}
 }
 
 @media (min-width: 480px) and (max-width: 600px) { 
@@ -560,6 +578,9 @@
 	}
 	.btn_get_diamon a.col-ct-10 {
 		padding:20px 10px ;
+	}
+	.lt_img {
+		height: 250px;
 	}
 }
 @media (min-width: 600px) and (max-width: 980px) { 

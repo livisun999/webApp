@@ -1036,7 +1036,7 @@ ul.checkout-bar li::before {
     color: #fff;
     font-size: 16px;
     font-weight: 700;
-    left: 98%;
+    left: 97%;
     line-height: 37px;
     height: 35px;
     position: absolute;
@@ -1072,4 +1072,40 @@ ul.checkout-bar li::before {
 }
 .lt_close a:hover {
 	color:red;
+}
+.txt_luyentap p {
+	color:#3B3535;
+	font-size: 25px;
+}
+p.txt_lt_word{
+	font-size: 40px;
+}
+.lt_img {
+	height: 350px;
+	/*height: 100%;*/
+	background-color: #F4F5F6;
+	border-radius: 15px;
+}
+.txt_luyentap {
+	margin-top:30px;
+	margin-bottom: 30px;
+}
+.txt_lt_volume i {
+	font-size: 60px;
+	color:#000000;
+}
+.luyentap1 button.lt_continue {
+	color: #FFFFFF;
+	background-color: #25A7DF;
+	border:none;
+	margin:0px auto;
+	display: flex;
+	padding:10px 35px;
+	border-radius: 5px;
+	font-size: 20px;
+	/*margin-top:30px;*/
+	font-weight: 400;
+}
+.lt_btn {
+	margin-top:40px;
 }
