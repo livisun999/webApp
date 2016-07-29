@@ -385,6 +385,32 @@
 	.lt_btn button.lt_continue {
 		padding:10px 61px;
 	}
+	.new_best img {
+	    max-height: 80px;
+	}
+	.vuong_mien img {
+	    padding: 0 0px;
+	    max-height: 60px;
+	}
+	.end_g_icon a {
+	    margin: 0px 5px;
+
+	}
+	.end_g_icon a i {
+	    font-size: 40px;
+	}
+	.end_g_icon a.end_home {
+		padding:26px 10px 12px 9px;
+	}
+	.end_g_icon a.end_undo {
+		padding:26px 10px 12px 12px;
+	}
+	.end_g_icon a.end_next {
+		padding: 25px 18px 13px 19px;
+	}
+	.end_g_luyentap button {
+		padding: 10px 80px;
+	}
 }
 
 @media (min-width: 480px) and (max-width: 600px) { 
@@ -610,6 +636,9 @@
 	}
 	.lt_btn button.lt_continue {
 		padding:15px 81px;
+	}
+	.end_g_icon a {
+		margin:0px 10px;
 	}
 
 }

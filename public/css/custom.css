@@ -1225,3 +1225,61 @@ p.txt_lt_word{
 .lt5_mr_bot {
 	margin-bottom: 100px;
 }
+/*END GAME */
+.end_g_icon {
+	display: flex;
+}
+.end_g_a_center {
+	margin:0px auto;
+}
+.end_g_icon a {
+	border:3px solid #6CDCFF;
+	border-radius: 50%;
+	margin:0px 50px;
+}
+.end_g_icon a.end_home {
+	padding:36px 10px 12px ;
+}
+.end_g_icon a.end_undo {
+	padding:34px 11px 12px 10px;
+}
+.end_g_icon a.end_next {
+	padding: 34px 20px 12px 19px;
+}
+.end_g_icon a i{
+	font-size: 50px;
+	color:#6CDCFF;
+}
+.endgame2
+{
+	margin-top:100px;
+}
+.new_best, .vuong_mien, .end_g_point {
+	margin-top:30px;
+}
+.vuong_mien img{
+	max-height: 70px;
+	/*margin-right: 20px;*/
+	padding:0 20px;
+}
+.end_g_point p{
+	font-size: 100px;
+	color:#F9Ec31;
+	font-weight: 500;
+	text-shadow: -1px 0 #F79E2D, 0 1px #F79E2D, 1px 0 #F79E2D, 0 -1px #F79E2D
+}
+.new_best img {
+	max-height: 120px;
+}
+.end_g_luyentap button {
+	margin:0px auto;
+	color: #FFFFFF;
+	background-color: #FAAF40;
+	border:none;
+	padding: 10px 100px;
+	border-radius: 5px;
+}
+.end_g_luyentap {
+	display: flex;
+	padding:50px 0;
+}
