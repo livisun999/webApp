@@ -1276,8 +1276,10 @@ p.txt_lt_word{
 	color: #FFFFFF;
 	background-color: #FAAF40;
 	border:none;
-	padding: 10px 100px;
+	padding: 5px 100px;
 	border-radius: 5px;
+	font-size: 25px;
+	font-weight: 400;
 }
 .end_g_luyentap {
 	display: flex;
